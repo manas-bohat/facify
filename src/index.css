@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Courier New";
+
+  background: linear-gradient(89deg, white 0%, rgb(255,135,132) 100%);
+  /* background-image: url('./cool-background2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  cursor: pointer;
+  font-size: 3vw;
+}
+

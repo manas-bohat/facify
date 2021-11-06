@@ -1,0 +1,9 @@
+.center {
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    margin-right: 30%;
+    margin-left: 8%;
+}
