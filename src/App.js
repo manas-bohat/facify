@@ -127,7 +127,7 @@ class App extends React.Component {
       input: this.state.input
     }
     // console.log('click-clack')
-    fetch("http://localhost:3000/imageurl", {
+    fetch("https://rocky-bastion-94687.herokuapp.com/imageurl", {
                 method: 'POST', 
                 headers: {  'Content-Type': 'application/json' },
                 body: JSON.stringify(inp)
@@ -136,7 +136,7 @@ class App extends React.Component {
         this.displayFaceBox(this.calculateFaceLocation(response));
           if(response)
           {
-              fetch("http://localhost:3000/image", {
+              fetch("https://rocky-bastion-94687.herokuapp.com/image", {
                 method: 'PUT', 
                 headers: {  'Content-Type': 'application/json' },
                 body: JSON.stringify(obj)
