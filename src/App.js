@@ -14,6 +14,11 @@ import FaceRecognition from './components/FaceRecognition/FaceRecognition.js'
 //   apiKey: '64d073fe8eb74a5ebe1a0bae97b65db0'
 // })
 
+window.onbeforeunload = function(e) {
+  console.log("I was called");
+  return "Dialog text";
+};
+
 // this box is an array of objects; objects that contain faces and their coordinates
 class App extends React.Component {
 
